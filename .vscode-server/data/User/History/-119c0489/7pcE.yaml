@@ -1,0 +1,23 @@
+kind: Deployment
+metadata:
+  name: shop-review2-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: shop-review2
+      frontend: shop-web
+      version: v2
+  template:
+    metadata:
+      labels:
+        app: shop-review2
+    spec:
+      serviceAccountName: shop-reviews-v2-sa
+      containers:
+      - name: shop-review2
+        image: s3yannick/s3project02-espresso-shop-review:v2.0.0
+        env:
+        SERVICE_VERSION= v2
+        ports:
+        - containerPort: 80

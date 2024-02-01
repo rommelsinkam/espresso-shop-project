@@ -1,0 +1,18 @@
+{
+    "redhat.telemetry.enabled": true,
+    "vs-kubernetes": {
+        "vscode-kubernetes.helm-path.windows": "C:\\Users\\YANNICK SINKAM\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
+        "vscode-kubernetes.minikube-path.windows": "C:\\Users\\YANNICK SINKAM\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe",
+        "vscode-kubernetes.minikube-path-windows": "C:\\Users\\YANNICK SINKAM\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe",
+        "vscode-kubernetes.helm-path-windows": "C:\\Users\\YANNICK SINKAM\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe"
+    },
+    "window.zoomLevel": 2,
+    "explorer.confirmDelete": false,
+    "terminal.integrated.accessibleViewFocusOnCommandExecution": true,
+    "remote.SSH.externalSSH_ASKPASS": true,
+    "remote.SSH.remotePlatform": {
+        "server1.anomicatech.com": "linux",
+        "server2.anomicatech.com": "linux"
+    },
+    "remote.SSH.configFile": "C:\\Users\\YANNICK SINKAM\\Downloads\\.ssh\\config"
+}

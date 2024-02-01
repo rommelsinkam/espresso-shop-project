@@ -1,0 +1,22 @@
+kind: Deployment
+metadata:
+  name: shop-product-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: shop-product
+      frontend: shop-web
+      version: v1
+
+  template:
+    metadata:
+      labels:
+        app: shop-product
+    spec:
+      serviceAccountName: shop-product-sa
+      containers:
+      - name: shop-product
+        image: s3yannick/s3project01-espresso-shop-product:v1.0.0
+        ports:
+        - containerPort: 80

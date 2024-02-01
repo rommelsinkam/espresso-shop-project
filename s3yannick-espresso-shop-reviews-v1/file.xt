@@ -1,0 +1,116 @@
+NAME: s3yannick-espresso-shop-reviews-v1
+LAST DEPLOYED: Thu Feb  1 04:30:13 2024
+NAMESPACE: yan
+STATUS: pending-install
+REVISION: 1
+TEST SUITE: None
+HOOKS:
+MANIFEST:
+---
+# Source: s3yan-espresso-shop-web/templates/pdb.yaml
+apiVersion: policy/v1
+kind: PodDisruptionBudget
+metadata:
+  name: s3yannick-espresso-shop-reviews-v1
+spec:
+  minAvailable: 2
+  selector:
+    matchLabels:
+      app:  s3yannick-espresso-shop-reviews-v1
+---
+# Source: s3yan-espresso-shop-web/templates/serviceaccount.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: s3yannick-espresso-shop-reviews-v1
+  labels:
+    app:  s3yannick-espresso-shop-reviews-v1
+---
+# Source: s3yan-espresso-shop-web/templates/service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: s3yannick-espresso-shop-reviews-v1
+  labels:
+    app:  s3yannick-espresso-shop-reviews-v1
+   
+spec:
+  type: ClusterIP
+  ports:
+    - port: 8092
+      targetPort: 80
+      protocol: TCP
+      name: http
+  selector:
+     app:  s3yannick-espresso-shop-reviews-v1
+---
+# Source: s3yan-espresso-shop-web/templates/deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: s3yannick-espresso-shop-reviews-v1
+  labels:
+    app:  s3yannick-espresso-shop-reviews-v1
+spec:
+  selector:
+    matchLabels:
+      app:  s3yannick-espresso-shop-reviews-v1
+  template:
+    metadata:
+      labels:
+        app:  s3yannick-espresso-shop-reviews-v1
+        version: v1
+    spec:
+      serviceAccountName: s3yannick-espresso-shop-reviews-v1
+      securityContext:
+        {}
+      containers:
+        - name: s3yannick-espresso-shop-reviews-v1
+          securityContext:
+            {}
+          image: "s3yannick/s3-project01-espresso-shop-review:v1.0.0"
+          imagePullPolicy: IfNotPresent
+          env:
+            - name: SERVICE_VERSION
+              value: v1
+          ports:
+            - name: http
+              containerPort: 80
+              protocol: TCP
+          livenessProbe:
+            httpGet:
+              path: /
+              port: http
+          readinessProbe:
+            httpGet:
+              path: /
+              port: http
+          resources:
+            {}
+---
+# Source: s3yan-espresso-shop-web/templates/hpa.yaml
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: s3yannick-espresso-shop-reviews-v1
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: s3yannick-espresso-shop-reviews-v1
+  minReplicas: 1
+  maxReplicas: 1
+  metrics:
+  - type: Resource
+    resource:
+      name: cpu
+      target:
+        type: Utilization
+        averageUtilization: 50
+
+NOTES:
+1. Get the application URL by running these commands:
+  export POD_NAME=$(kubectl get pods --namespace yan -l "app.kubernetes.io/name=s3yan-espresso-shop-web,app.kubernetes.io/instance=s3yannick-espresso-shop-reviews-v1" -o jsonpath="{.items[0].metadata.name}")
+  export CONTAINER_PORT=$(kubectl get pod --namespace yan $POD_NAME -o jsonpath="{.spec.containers[0].ports[0].containerPort}")
+  echo "Visit http://127.0.0.1:8080 to use your application"
+  kubectl --namespace yan port-forward $POD_NAME 8080:$CONTAINER_PORT

@@ -1,0 +1,14 @@
+2024-01-31 01:45:23.594 [info] Extension host with pid 631043 started
+2024-01-31 01:45:23.619 [info] Lock '/home/s3yannick/.vscode-server/data/User/workspaceStorage/cadabc65d83e09790d37cdb7b97954cf/vscode.lock': Lock acquired.
+2024-01-31 01:45:23.698 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-01-31 01:45:23.774 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-01-31 01:45:23.774 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-01-31 01:45:24.090 [info] Eager extensions activated
+2024-01-31 01:45:24.090 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-01-31 01:45:24.090 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-01-31 01:45:26.323 [error] Error: read ECONNRESET
+	at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-01-31 01:45:40.964 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-01-31 07:18:47.942 [info] Extension host terminating: renderer disconnected for too long (1)
+2024-01-31 07:18:47.943 [info] Lock '/home/s3yannick/.vscode-server/data/User/workspaceStorage/cadabc65d83e09790d37cdb7b97954cf/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-01-31 07:18:47.957 [info] Extension host with pid 631043 exiting with code 0

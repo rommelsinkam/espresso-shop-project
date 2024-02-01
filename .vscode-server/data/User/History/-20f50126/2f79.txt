@@ -1,0 +1,86 @@
+NAME: espresso-shop-web
+LAST DEPLOYED: Sat Jan 27 06:57:56 2024
+NAMESPACE: s3yannick
+STATUS: pending-install
+REVISION: 1
+TEST SUITE: None
+HOOKS:
+MANIFEST:
+---
+# Source: s3yannick-espresso-shop-web/templates/serviceaccount.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name:  s3yannick-espresso-shop-web
+  labels:
+     app: s3yannick-espresso-shop-web
+---
+# Source: s3yannick-espresso-shop-web/templates/service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: s3yannick-espresso-shop-web
+  labels:
+    app: s3yannick-espresso-shop-web
+spec:
+  type: NodePort
+  ports:
+    - port: 80
+      targetPort: 80
+      protocol: TCP
+      name: http
+  selector:
+    app: s3yannick-espresso-shop-web
+---
+# Source: s3yannick-espresso-shop-web/templates/deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: s3yannick-espresso-shop-web
+  labels:
+   app: s3yannick-espresso-shop-web
+spec:
+  selector:
+    matchLabels:
+      app: s3yannick-espresso-shop-web
+  template:
+    metadata:
+      labels:
+        app: s3yannick-espresso-shop-web
+    spec:
+      serviceAccountName: s3yannick-espresso-shop-web
+      securityContext:
+        {}
+      containers:
+        - name: s3yannick-espresso-shop-web
+          securityContext:
+            {}
+          image: "s3yannick/s3project01-espresso-shop-web:v1.0.0"
+          imagePullPolicy: IfNotPresent
+          ports:
+            - name: http
+              containerPort: 80
+              protocol: TCP
+          livenessProbe:
+            httpGet:
+              path: /
+              port: http
+          readinessProbe:
+            httpGet:
+              path: /
+              port: http
+          resources:
+            limits:
+              cpu: 100m
+              memory: 128Mi
+            requests:
+              cpu: 100m
+              memory: 128Mi
+
+
+
+NOTES:
+1. Get the application URL by running these commands:
+  export NODE_PORT=$(kubectl get --namespace s3yannick -o jsonpath="{.spec.ports[0].nodePort}" services espresso-shop-web-s3yannick-espresso-shop-web)
+  export NODE_IP=$(kubectl get nodes --namespace s3yannick -o jsonpath="{.items[0].status.addresses[0].address}")
+  echo http://$NODE_IP:$NODE_PORT

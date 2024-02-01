@@ -1,0 +1,9 @@
+apiVersion: policy/v1beta1
+kind: PodDisruptionBudget
+metadata:
+  name: shop-product-pdb
+spec:
+  maxUnavailable: 1
+  selector:
+    matchLabels:
+      app: shop-product

@@ -1,0 +1,22 @@
+kind: Deployment
+metadata:
+  name: shop-product-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: shop-product
+      version: v1
+  template:
+    metadata:
+      labels:
+        app: shop-product
+    spec:
+      containers:
+      - name: shop-product
+        image: s3yannick/s3project01-espresso-shop-product:v1.0.0
+        env:
+        ProductCatalogUrl=http://espresso-shop-product-catalog-svc:8091
+        ReviwsUrl=http://espresso-shop-reviews-svc:8092
+        ports:
+        - containerPort: 80

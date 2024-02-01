@@ -1,0 +1,9 @@
+apiVersion: policy/v1beta1
+kind: PodDisruptionBudget
+metadata:
+  name: {{ .Values.appname }}
+spec:
+  minAvailable: {{ .Values.spec.inAvailable }}
+  selector:
+    matchLabels:
+      app: {{ .Values.service.labels }}

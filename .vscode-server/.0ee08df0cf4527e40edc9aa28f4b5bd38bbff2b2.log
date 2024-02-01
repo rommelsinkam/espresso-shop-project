@@ -1,0 +1,1649 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to 127.0.0.1:34261 (IPv4)
+Extension host agent listening on 34261
+
+[02:04:35] 
+
+
+
+
+[02:04:35] Extension host agent started.
+[02:04:35] [127.0.0.1][5320db7c][ManagementConnection] New connection established.
+[02:04:35] [127.0.0.1][1e26866f][ExtensionHostConnection] New connection established.
+Got delay-shutdown request while in shutdown timeout, delaying
+[02:04:37] Got delay-shutdown request while in shutdown timeout, delaying
+Cancelling previous shutdown timeout
+[02:04:37] Cancelling previous shutdown timeout
+[02:04:37] [127.0.0.1][b9dd48ed][ManagementConnection] New connection established.
+[02:04:37] [127.0.0.1][0d0f8f20][ExtensionHostConnection] New connection established.
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[02:04:38] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[02:04:39] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateIcon (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27562)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[02:04:44] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateIcon (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27562)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[02:04:44] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[02:04:45] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[02:04:45] resolving shell environment failed Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+[02:04:45] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[02:04:45] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[02:04:45] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[02:04:45] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[02:04:45] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[02:04:45] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[02:04:45] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[02:04:45] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[02:04:45] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[02:04:45] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[02:04:45] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[02:04:45] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[02:04:45] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[02:04:45] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[02:04:45] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[02:04:45] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[02:04:45] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[02:04:45] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[02:04:45] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[02:04:45] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[02:04:45] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[02:04:45] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[02:04:45] [127.0.0.1][1e26866f][ExtensionHostConnection] <164503> Launched Extension Host Process.
+[02:04:45] [127.0.0.1][0d0f8f20][ExtensionHostConnection] <164504> Launched Extension Host Process.
+[02:04:45] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[02:04:47] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[02:04:47] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[02:04:47] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[02:04:47] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+New EH opened, aborting shutdown
+[02:09:37] New EH opened, aborting shutdown
+[03:44:52] [127.0.0.1][5320db7c][ManagementConnection] The client has reconnected.
+[03:44:52] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[03:44:53] [127.0.0.1][b9dd48ed][ManagementConnection] The client has reconnected.
+[03:44:53] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[03:44:53] [127.0.0.1][0d0f8f20][ExtensionHostConnection] The client has reconnected.
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateIcon (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27562)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[03:44:53] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateIcon (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27562)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[03:44:53] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[03:44:53] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateIcon (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27562)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[03:44:54] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateIcon (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27562)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[03:44:54] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[03:44:54] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[03:44:55] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[03:44:55] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[03:44:55] [127.0.0.1][1e26866f][ExtensionHostConnection] The client has reconnected.
+[03:45:01] [127.0.0.1][b9dd48ed][ManagementConnection] The client has reconnected.
+[03:45:01] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[03:45:01] [127.0.0.1][0d0f8f20][ExtensionHostConnection] The client has reconnected.
+[03:45:01] [127.0.0.1][5320db7c][ManagementConnection] The client has reconnected.
+[03:45:01] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateIcon (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27562)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[03:45:02] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateIcon (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27562)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[03:45:02] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[03:45:04] [127.0.0.1][1e26866f][ExtensionHostConnection] The client has reconnected.
+[03:51:03] [127.0.0.1][f0715a60][ExtensionHostConnection] New connection established.
+[03:51:03] [127.0.0.1][f656dff6][ManagementConnection] New connection established.
+[03:51:03] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[03:51:03] [127.0.0.1][f0715a60][ExtensionHostConnection] <318696> Launched Extension Host Process.
+[03:51:04] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[03:51:04] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[03:51:05] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[03:51:05] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[03:51:05] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[03:51:05] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[03:51:05] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[03:51:06] [127.0.0.1][b9dd48ed][ManagementConnection] The client has reconnected.
+[03:51:06] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[03:51:06] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[03:51:06] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[03:51:06] [127.0.0.1][0d0f8f20][ExtensionHostConnection] The client has reconnected.
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateIcon (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27562)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[03:51:07] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateIcon (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27562)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateIcon (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27562)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[03:51:07] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateIcon (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27562)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[03:51:07] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[03:51:08] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[03:56:04] [127.0.0.1][1e26866f][ExtensionHostConnection] <164503> Extension Host Process exited with code: 0, signal: null.
+[04:08:52] [File Watcher (parcel)] Watcher shutdown because watched path got deleted (path: /home/s3yannick/s3yan-espresso-shop)
+[04:08:52] [File Watcher (parcel)] Watcher shutdown because watched path got deleted (path: /home/s3yannick/s3yan-espresso-shop)
+[04:14:57] [127.0.0.1][f656dff6][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[04:14:57] [127.0.0.1][f0715a60][ExtensionHostConnection] <318696> Extension Host Process exited with code: 0, signal: null.
+[04:15:00] [127.0.0.1][1e996c49][ManagementConnection] New connection established.
+[04:15:00] [127.0.0.1][e1168158][ExtensionHostConnection] New connection established.
+[04:15:00] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:15:00] [127.0.0.1][e1168158][ExtensionHostConnection] <360832> Launched Extension Host Process.
+[04:15:02] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:15:02] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:15:02] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:15:03] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:15:03] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:15:03] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:15:03] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:15:04] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:15:37] [127.0.0.1][1e996c49][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[04:15:37] [127.0.0.1][e1168158][ExtensionHostConnection] <360832> Extension Host Process exited with code: 0, signal: null.
+[04:15:40] [127.0.0.1][994afdf4][ManagementConnection] New connection established.
+[04:15:41] [127.0.0.1][c6b5bf92][ExtensionHostConnection] New connection established.
+[04:15:41] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:15:41] [127.0.0.1][c6b5bf92][ExtensionHostConnection] <362413> Launched Extension Host Process.
+[04:15:41] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:15:41] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:15:42] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:15:42] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:15:42] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:15:42] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:15:42] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:15:44] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:16:09] [127.0.0.1][994afdf4][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[04:16:09] [127.0.0.1][c6b5bf92][ExtensionHostConnection] <362413> Extension Host Process exited with code: 0, signal: null.
+[04:16:13] [127.0.0.1][e52f4043][ManagementConnection] New connection established.
+[04:16:13] [127.0.0.1][017ccea2][ExtensionHostConnection] New connection established.
+[04:16:13] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:16:13] [127.0.0.1][017ccea2][ExtensionHostConnection] <363238> Launched Extension Host Process.
+[04:16:13] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:16:13] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:16:14] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:16:14] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:16:14] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:16:14] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:16:14] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:16:16] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[04:16:18] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[04:16:34] [127.0.0.1][e52f4043][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[04:16:34] [127.0.0.1][017ccea2][ExtensionHostConnection] <363238> Extension Host Process exited with code: 0, signal: null.
+[04:16:36] [127.0.0.1][3cbaa515][ManagementConnection] New connection established.
+[04:16:36] [127.0.0.1][8ab3394f][ExtensionHostConnection] New connection established.
+[04:16:36] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:16:36] [127.0.0.1][8ab3394f][ExtensionHostConnection] <364047> Launched Extension Host Process.
+[04:16:36] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:16:37] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:16:37] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:16:37] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:16:37] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:16:37] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:16:38] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:17:54] [127.0.0.1][3cbaa515][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[04:17:54] [127.0.0.1][8ab3394f][ExtensionHostConnection] <364047> Extension Host Process exited with code: 0, signal: null.
+[04:17:58] [127.0.0.1][f763e7b9][ManagementConnection] New connection established.
+[04:17:58] [127.0.0.1][7be36b1c][ExtensionHostConnection] New connection established.
+[04:17:58] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:17:58] [127.0.0.1][7be36b1c][ExtensionHostConnection] <366392> Launched Extension Host Process.
+[04:17:58] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:17:58] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:17:59] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:17:59] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:17:59] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:17:59] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:17:59] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:18:00] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:18:16] [127.0.0.1][f763e7b9][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[04:18:16] [127.0.0.1][7be36b1c][ExtensionHostConnection] <366392> Extension Host Process exited with code: 0, signal: null.
+[04:18:18] [127.0.0.1][b96eca97][ManagementConnection] New connection established.
+[04:18:18] [127.0.0.1][198b18c3][ExtensionHostConnection] New connection established.
+[04:18:18] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:18:18] [127.0.0.1][198b18c3][ExtensionHostConnection] <367263> Launched Extension Host Process.
+[04:18:18] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:18:19] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:18:19] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:18:19] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:18:19] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:18:19] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:18:21] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:21:28] [127.0.0.1][b9dd48ed][ManagementConnection] The client has reconnected.
+[04:21:28] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:21:28] [127.0.0.1][0d0f8f20][ExtensionHostConnection] The client has reconnected.
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateIcon (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27562)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[04:21:29] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateIcon (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27562)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[04:21:29] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[04:21:29] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[04:21:31] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[04:40:29] [127.0.0.1][0d0f8f20][ExtensionHostConnection] <164504> Extension Host Process exited with code: 0, signal: null.
+[04:40:33] [127.0.0.1][a971def7][ManagementConnection] New connection established.
+[04:40:33] [127.0.0.1][13a98b7d][ExtensionHostConnection] New connection established.
+[04:40:33] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:40:33] [127.0.0.1][13a98b7d][ExtensionHostConnection] <398044> Launched Extension Host Process.
+[04:40:33] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:40:33] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:40:34] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:40:34] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:40:34] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:40:34] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:40:34] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[04:40:35] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[04:40:36] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:40:36] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateIcon (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27562)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[04:40:37] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateIcon (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27562)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[04:40:37] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[04:40:37] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[04:40:38] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[04:41:03] [127.0.0.1][a971def7][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[04:41:03] [127.0.0.1][13a98b7d][ExtensionHostConnection] <398044> Extension Host Process exited with code: 0, signal: null.
+[04:41:05] [127.0.0.1][b04ff9ad][ManagementConnection] New connection established.
+[04:41:05] [127.0.0.1][f377ad66][ExtensionHostConnection] New connection established.
+[04:41:05] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:41:05] [127.0.0.1][f377ad66][ExtensionHostConnection] <399235> Launched Extension Host Process.
+[04:41:06] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:41:06] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:41:07] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:41:07] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:41:07] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:41:07] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:41:07] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:41:08] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:41:32] [127.0.0.1][b04ff9ad][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[04:41:32] [127.0.0.1][f377ad66][ExtensionHostConnection] <399235> Extension Host Process exited with code: 0, signal: null.
+[04:41:35] [127.0.0.1][942598b1][ManagementConnection] New connection established.
+[04:41:35] [127.0.0.1][a0d6ea82][ExtensionHostConnection] New connection established.
+[04:41:35] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:41:35] [127.0.0.1][a0d6ea82][ExtensionHostConnection] <399963> Launched Extension Host Process.
+[04:41:35] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:41:35] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:41:36] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:41:36] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:41:36] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:41:36] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:41:37] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:41:37] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[04:41:38] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[04:42:12] [127.0.0.1][942598b1][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[04:42:14] [127.0.0.1][1e9532a8][ManagementConnection] New connection established.
+[04:42:14] [127.0.0.1][277cdf8d][ExtensionHostConnection] New connection established.
+[04:42:14] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:42:14] [127.0.0.1][277cdf8d][ExtensionHostConnection] <401225> Launched Extension Host Process.
+[04:42:15] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:42:15] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:42:15] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:42:15] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:42:15] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:42:15] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:42:16] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:42:16] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:42:18] [127.0.0.1][1e9532a8][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[04:42:20] [127.0.0.1][c8d74417][ManagementConnection] New connection established.
+[04:42:20] [127.0.0.1][9ee7ddc5][ExtensionHostConnection] New connection established.
+[04:42:20] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:42:20] [127.0.0.1][9ee7ddc5][ExtensionHostConnection] <401604> Launched Extension Host Process.
+[04:42:21] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:42:21] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:42:21] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:42:21] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:42:21] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:42:21] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:42:22] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:42:23] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:42:38] [127.0.0.1][c8d74417][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[04:42:41] [127.0.0.1][d227ea72][ManagementConnection] New connection established.
+[04:42:41] [127.0.0.1][ff7f4348][ExtensionHostConnection] New connection established.
+[04:42:41] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:42:41] [127.0.0.1][ff7f4348][ExtensionHostConnection] <402165> Launched Extension Host Process.
+[04:42:41] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:42:41] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:42:42] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:42:42] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:42:42] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:42:42] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:42:43] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:42:43] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
+stack trace: CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[04:42:44] Error [CodeExpectedError]: Could not find pty on pty host
+    at A.U (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
+    at A.updateTitle (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
+    at T.<computed> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
+    at Object.call (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at g.s (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at g.q (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at i.y (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at i.fire (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ce (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/platform/terminal/node/ptyHostMain.js:25:10117)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+[04:42:45] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[04:47:14] [127.0.0.1][a0d6ea82][ExtensionHostConnection] <399963> Extension Host Process exited with code: 0, signal: null.
+[04:47:20] [127.0.0.1][277cdf8d][ExtensionHostConnection] <401225> Extension Host Process exited with code: 0, signal: null.
+[04:47:41] [127.0.0.1][9ee7ddc5][ExtensionHostConnection] <401604> Extension Host Process exited with code: 0, signal: null.
+[05:16:03] [127.0.0.1][b96eca97][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[05:16:03] [127.0.0.1][198b18c3][ExtensionHostConnection] <367263> Extension Host Process exited with code: 0, signal: null.
+[05:16:06] [127.0.0.1][79b485d7][ManagementConnection] New connection established.
+[05:16:06] [127.0.0.1][ea8bf420][ExtensionHostConnection] New connection established.
+[05:16:06] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[05:16:06] [127.0.0.1][ea8bf420][ExtensionHostConnection] <422998> Launched Extension Host Process.
+[05:16:06] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[05:16:06] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[05:16:07] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[05:16:08] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[05:16:08] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[05:16:08] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[05:16:08] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[05:16:09] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[05:16:17] [127.0.0.1][79b485d7][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[05:16:17] [127.0.0.1][ea8bf420][ExtensionHostConnection] <422998> Extension Host Process exited with code: 0, signal: null.
+[05:16:19] [127.0.0.1][eec13afb][ManagementConnection] New connection established.
+[05:16:19] [127.0.0.1][ffc66173][ExtensionHostConnection] New connection established.
+[05:16:19] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[05:16:19] [127.0.0.1][ffc66173][ExtensionHostConnection] <423665> Launched Extension Host Process.
+[05:16:22] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[05:16:22] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[05:16:22] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[05:16:22] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[05:16:22] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[05:16:22] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[05:16:22] ExtensionHostConnection#buildUserEnvironment resolving shell environment failed Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[05:16:23] ptyHost was unable to resolve shell environment Error: Unable to resolve your shell environment in a reasonable time. Please review your shell configuration and restart.
+    at Timeout.<anonymous> (/home/s3yannick/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/out/vs/server/node/server.main.js:113:2520)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+[05:16:28] [127.0.0.1][eec13afb][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[05:16:28] [127.0.0.1][d227ea72][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[05:16:28] [127.0.0.1][ffc66173][ExtensionHostConnection] <423665> Extension Host Process exited with code: 0, signal: null.
+[05:16:28] [127.0.0.1][ff7f4348][ExtensionHostConnection] <402165> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[05:16:28] Last EH closed, waiting before shutting down
+Last EH closed, shutting down
+[05:21:28] Last EH closed, shutting down

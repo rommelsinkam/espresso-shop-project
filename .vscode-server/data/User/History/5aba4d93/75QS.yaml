@@ -1,0 +1,39 @@
+# kubernetes-manifest.yaml
+
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: espresso-shop-ingress
+spec:
+  rules:
+  - host: shop.yourdomain.com
+    http:
+      paths:
+      - path: /web
+        pathType: Prefix
+        backend:
+          service:
+            name: shop-web-service
+            port:
+              number: 80
+      - path: /product
+        pathType: Prefix
+        backend:
+          service:
+            name: shop-product-service
+            port:
+              number: 80
+      - path: /reviews-v1
+        pathType: Prefix
+        backend:
+          service:
+            name: shop-reviews-v1-service
+            port:
+              number: 80
+      - path: /reviews-v2
+        pathType: Prefix
+        backend:
+          service:
+            name: shop-reviews-v2-service
+            port:
+              number: 80

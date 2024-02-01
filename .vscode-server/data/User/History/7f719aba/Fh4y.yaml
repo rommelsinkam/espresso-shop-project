@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: shop-review1-service
+spec:
+  selector:
+    app: shop-review1
+    version: v1
+  ports:
+    - protocol: TCP
+      port: 8090
+      targetPort: 80
+  type: Nodeport
