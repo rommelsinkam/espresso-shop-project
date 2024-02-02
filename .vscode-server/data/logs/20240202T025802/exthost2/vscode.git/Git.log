@@ -1,0 +1,17 @@
+2024-02-02 02:58:15.153 [info] Log level: Info
+2024-02-02 02:58:15.153 [info] Validating found git in: "git"
+2024-02-02 02:58:15.153 [info] Using git "2.34.1" from "git"
+2024-02-02 02:58:15.153 [info] > git rev-parse --show-toplevel [3ms]
+2024-02-02 02:58:15.153 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2024-02-02 02:58:15.153 [info] Open repository: /home/s3yannick/project
+2024-02-02 02:58:15.153 [info] > git config --get commit.template [7ms]
+2024-02-02 02:58:15.153 [info] > git rev-parse --show-toplevel [6ms]
+2024-02-02 02:58:15.192 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s3yannick refs/remotes/s3yannick [40ms]
+2024-02-02 02:58:15.211 [info] > git status -z -uall [12ms]
+2024-02-02 02:58:15.262 [info] > git config --get commit.template [2ms]
+2024-02-02 02:58:15.269 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/s3yannick refs/remotes/s3yannick [2ms]
+2024-02-02 02:58:15.276 [info] > git status -z -uall [3ms]
+2024-02-02 02:58:15.713 [info] > git check-ignore -v -z --stdin [1ms]
+2024-02-02 02:58:15.761 [info] > git show --textconv :shop-web/deployment.yaml [6ms]
+2024-02-02 02:58:15.763 [info] > git ls-files --stage -- /home/s3yannick/project/shop-web/deployment.yaml [2ms]
+2024-02-02 02:58:15.769 [info] > git cat-file -s d2b45559b7de1797b238c274ee619fe56be0af7a [2ms]

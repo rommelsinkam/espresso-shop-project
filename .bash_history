@@ -165,3 +165,32 @@ cp -r s3yan-espresso-shop-web/* s3yannick-espresso-shop-web/
 docker exec -it s3yannick bash
 cd ..
 docker exec -it s3yannick bash
+cd ..
+docker exec -it s3yannick bash
+ls
+rm -rf s3yannick-espresso-shop-product 
+mkdir s3yannick-espresso-shop-product
+cp -r s3yannick-espresso-shop-web/* s3yannick-espresso-shop-product/
+docker exec -it s3yannick bash
+ls
+rm -rf s3yannick-espresso-shop-product
+mkdir s3yannick-espresso-shop-product
+cp -r s3yannick-espresso-shop-web/* s3yannick-espresso-shop-product/
+cd s3yannick-espresso-shop-product/
+docker exec -it s3yannick bash
+cd ..
+kubens
+ls
+cp -r s3yannick-espresso-shop-web/* s3yannick-espresso-shop-reviews-v1
+docker exec -it s3yannick bash
+cp -r s3yannick-espresso-shop-reviews-v1/* s3yannick-espresso-shop-reviews-v2
+docker exec -it s3yannick bash
+cd ..
+ls
+rm -rf s3yannick-espresso-shop-web
+mkdir s3yannick-espresso-shop-web
+cp -r s3yan-espresso-shop-web/* s3yannick-espresso-shop-web/
+docker exec -it s3yannick bash
+ls
+cp -r s3yannick-espresso-shop-web/* s3yannick-espresso-shop-product/
+docker exec -it s3yannick bash

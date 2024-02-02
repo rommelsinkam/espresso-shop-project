@@ -1,3 +1,3 @@
-Listening on 127.0.0.1:46057
-[2024-02-01 01:10:49] info Disposed of connection to running server.
-looking for token 0c0893e91421, got Some("0c0893e91421")
+Listening on 127.0.0.1:42771
+[2024-02-02 02:58:16] info Disposed of connection to running server.
+looking for token ce195467aae0, got Some("ce195467aae0")
