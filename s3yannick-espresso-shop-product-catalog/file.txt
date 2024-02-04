@@ -1,0 +1,158 @@
+NAME: s3yannick-espresso-shop-product-catalog
+LAST DEPLOYED: Sun Feb  4 07:25:46 2024
+NAMESPACE: yan
+STATUS: pending-install
+REVISION: 1
+TEST SUITE: None
+HOOKS:
+MANIFEST:
+---
+# Source: s3yan-espresso-shop-web/templates/pdb.yaml
+apiVersion: policy/v1
+kind: PodDisruptionBudget
+metadata:
+  name: s3yannick-espresso-shop-product-catalog
+spec:
+  minAvailable: 
+  selector:
+    matchLabels:
+      app:  s3yannick-espresso-shop-product-catalog
+---
+# Source: s3yan-espresso-shop-web/templates/serviceaccount.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: s3yannick-espresso-shop-product-catalog
+  labels:
+    app:  s3yannick-espresso-shop-product-catalog
+---
+# Source: s3yan-espresso-shop-web/templates/secret.yaml
+apiVersion: v1
+kind: Secret
+metadata:
+  name: s3yannick-espresso-shop-product-catalog
+type: Opaque
+data:
+  username: postgres
+  password: TlhZJmdlcCNTWG4qNnJ1VkpMdldkekRyIVZhV3hNKkJF
+  database: espresso
+---
+# Source: s3yan-espresso-shop-web/templates/service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: s3yannick-espresso-shop-product-catalog
+  labels:
+    app:  s3yannick-espresso-shop-product-catalog
+   
+spec:
+  type: ClusterIP
+  ports:
+    - port: 8091
+      targetPort: 80
+      protocol: TCP
+      name: http
+  selector:
+     app:  s3yannick-espresso-shop-product-catalog
+---
+# Source: s3yan-espresso-shop-web/templates/deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: s3yannick-espresso-shop-product-catalog
+  labels:
+    app: s3yannick-espresso-shop-product-catalog
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: s3yannick-espresso-shop-product-catalog
+  minReadySeconds: 5
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 1
+  template:
+    metadata:
+      labels:
+        app: s3yannick-espresso-shop-product-catalog
+        version: v1
+    spec:
+      imagePullSecrets:
+      serviceAccountName: s3yannick-espresso-shop-product-catalog
+      securityContext:
+        {}
+      containers:
+        - name: s3yannick-espresso-shop-product-catalog
+          securityContext:
+            {}
+          image: "s3yannick/s3-project01-espresso-shop-product:v1.0.0"
+          envFrom:
+            - secretRef:
+                name: s3yannick-espresso-shop-product-catalog 
+          imagePullPolicy: IfNotPresent
+          
+          ports:
+            - name: http
+              containerPort: 80
+              protocol: TCP
+          livenessProbe:
+            httpGet:
+              path: /
+              port: http
+          readinessProbe:
+            httpGet:
+              path: /
+              port: http
+          resources:
+            limits:
+              cpu: 100m
+              memory: 128Mi
+            requests:
+              cpu: 100m
+              memory: 128Mi
+---
+# Source: s3yan-espresso-shop-web/templates/hpa.yaml
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: s3yannick-espresso-shop-product-catalog
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: s3yannick-espresso-shop-product-catalog
+  minReplicas: 2
+  maxReplicas: 2
+  metrics:
+  - type: Resource
+    resource:
+      name: cpu
+      target:
+        type: Utilization
+        averageUtilization: 50
+---
+# Source: s3yan-espresso-shop-web/templates/ingress.yaml
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: s3yannick-espresso-shop-product-catalog
+  labels:
+     app:  s3yannick-espresso-shop-product-catalog
+spec:
+  rules:
+    - host: "chart-example.local"
+      http:
+        paths:
+          - path: /
+            pathType: ImplementationSpecific
+            backend:
+              service:
+                name: s3yannick-espresso-shop-product-catalog-s3yan-espresso-shop-web
+                port:
+                  number: 8091
+
+NOTES:
+1. Get the application URL by running these commands:
+  http://chart-example.local/

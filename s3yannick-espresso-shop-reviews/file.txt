@@ -1,0 +1,264 @@
+NAME: s3yannick-espresso-shop-reviews
+LAST DEPLOYED: Sun Feb  4 09:32:43 2024
+NAMESPACE: yan
+STATUS: pending-install
+REVISION: 1
+TEST SUITE: None
+HOOKS:
+MANIFEST:
+---
+# Source: s3yan-espresso-shop-web/templates/pdb.yaml
+apiVersion: policy/v1
+kind: PodDisruptionBudget
+metadata:
+  name: s3yannick-espresso-shop-reviews-v1
+  labels:
+    app: s3yannick-espresso-shop-reviews
+spec:
+  minAvailable: 
+  selector:
+    matchLabels:
+      app:  s3yannick-espresso-shop-reviews-v1
+---
+# Source: s3yan-espresso-shop-web/templates/pdb2.yaml
+apiVersion: policy/v1
+kind: PodDisruptionBudget
+metadata:
+  name: s3yannick-espresso-shop-reviews-v2
+  labels: 
+    app: s3yannick-espresso-shop-reviews
+spec:
+  minAvailable: 
+  selector:
+    matchLabels:
+      app: s3yannick-espresso-shop-reviews-v2
+---
+# Source: s3yan-espresso-shop-web/templates/serviceaccount.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name:  s3yannick-espresso-shop-reviews-v1
+  labels:
+    app:  s3yannick-espresso-shop-reviews-v1
+---
+# Source: s3yan-espresso-shop-web/templates/serviceaccount2.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: s3yannick-espresso-shop-reviews-v2
+  labels:
+    app:  s3yannick-espresso-shop-reviews-v2
+---
+# Source: s3yan-espresso-shop-web/templates/secret.yaml
+apiVersion: v1
+kind: Secret
+metadata:
+  name: s3yannick-espresso-shop-reviews
+type: Opaque
+data:
+  username: postgres
+  password: TlhZJmdlcCNTWG4qNnJ1VkpMdldkekRyIVZhV3hNKkJF
+  database: espresso
+---
+# Source: s3yan-espresso-shop-web/templates/service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: s3yannick-espresso-shop-reviews
+  labels:
+    app:  s3yannick-espresso-shop-reviews
+   
+spec:
+  type: ClusterIP
+  ports:
+    - port: 8092
+      targetPort: 80
+      protocol: TCP
+      name: http
+  selector:
+     app:  s3yannick-espresso-shop-reviews
+---
+# Source: s3yan-espresso-shop-web/templates/deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: s3yannick-espresso-shop-reviews
+  labels:
+    app: s3yannick-espresso-shop-reviews-v1
+spec:
+  selector:
+    matchLabels:
+      app: s3yannick-espresso-shop-reviews-v1
+  minReadySeconds: 5
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 1
+  template:
+    metadata:
+      labels:
+        app: s3yannick-espresso-shop-reviews-v1
+        version: v1
+    spec:
+      imagePullSecrets:
+      serviceAccountName: s3yannick-espresso-shop-reviews-v1
+      securityContext:
+        {}
+      containers:
+        - name: s3yannick-espresso-shop-reviews
+          securityContext:
+            {}
+          image: "s3yannick/s3-project01-espresso-shop-review:v1.0.0"
+          imagePullPolicy: IfNotPresent
+          envFrom:
+            - secretRef:
+                name: s3yannick-espresso-shop-reviews 
+          env:
+             - name: SERVICE_VERSION
+               value: "v1"
+          ports:
+            - name: http
+              containerPort: 80
+              protocol: TCP
+          livenessProbe:
+            httpGet:
+              path: /
+              port: http
+          readinessProbe:
+            httpGet:
+              path: /
+              port: http
+          resources:
+            limits:
+              cpu: 100m
+              memory: 128Mi
+            requests:
+              cpu: 100m
+              memory: 128Mi
+---
+# Source: s3yan-espresso-shop-web/templates/deployment2.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: s3yannick-espresso-shop-reviews-v2
+  labels:
+    app: s3yannick-espresso-shop-reviews-v2
+spec:
+  selector:
+    matchLabels:
+      app: s3yannick-espresso-shop-reviews-v2
+  minReadySeconds: 5
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 1
+      maxUnavailable: 1
+  template:
+    metadata:
+      labels:
+        app: s3yannick-espresso-shop-reviews-v2
+        version: v2
+    spec:
+      imagePullSecrets:
+      serviceAccountName: s3yannick-espresso-shop-reviews-v2
+      securityContext:
+        {}
+      containers:
+        - name: s3yan-espresso-shop-web
+          securityContext:
+            {}
+          image: "s3yannick/s3-project01-espresso-shop-review:v1.0.0"
+          imagePullPolicy: IfNotPresent
+          envFrom:
+            - secretRef:
+                name: s3yannick-espresso-shop-reviews-v2
+          env:
+            - name: SERVICE_VERSION
+              value: "v2"
+          
+          ports:
+            - name: http
+              containerPort: 80
+              protocol: TCP
+          livenessProbe:
+            httpGet:
+              path: /
+              port: http
+          readinessProbe:
+            httpGet:
+              path: /
+              port: http
+          resources:
+            limits:
+              cpu: 100m
+              memory: 128Mi
+            requests:
+              cpu: 100m
+              memory: 128Mi
+---
+# Source: s3yan-espresso-shop-web/templates/hpa.yaml
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: s3yannick-espresso-shop-reviews-v1
+  labels: 
+    app: s3yannick-espresso-shop-reviews-v1
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: s3yannick-espresso-shop-reviews-v1
+  minReplicas: 2
+  maxReplicas: 5
+  metrics:
+  - type: Resource
+    resource:
+      name: cpu
+      target:
+        type: Utilization
+        averageUtilization: 50
+---
+# Source: s3yan-espresso-shop-web/templates/hpa2.yaml
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: s3yannick-espresso-shop-reviews-v2
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: s3yannick-espresso-shop-reviews-v2
+  minReplicas: 2
+  maxReplicas: 5
+  metrics:
+  - type: Resource
+    resource:
+        name: cpu
+        target:
+          type: Utilization
+          averageUtilization: 50
+---
+# Source: s3yan-espresso-shop-web/templates/ingress.yaml
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: s3yannick-espresso-shop-reviews
+  labels:
+     app:  s3yannick-espresso-shop-reviews
+spec:
+  rules:
+    - host: "chart-example.local"
+      http:
+        paths:
+          - path: /
+            pathType: ImplementationSpecific
+            backend:
+              service:
+                name: s3yannick-espresso-shop-reviews-s3yan-espresso-shop-web
+                port:
+                  number: 8092
+
+NOTES:
+1. Get the application URL by running these commands:
+  http://chart-example.local/

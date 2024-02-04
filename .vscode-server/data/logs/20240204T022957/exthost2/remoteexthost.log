@@ -1,0 +1,9 @@
+2024-02-04 02:30:08.989 [info] Extension host with pid 563333 started
+2024-02-04 02:30:09.009 [info] Lock '/home/s3yannick/.vscode-server/data/User/workspaceStorage/20a8741208596f583606ce055b811bfe/vscode.lock': Lock acquired.
+2024-02-04 02:30:09.127 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-02-04 02:30:09.253 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-02-04 02:30:09.469 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-02-04 02:30:09.469 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-02-04 02:30:09.736 [info] Eager extensions activated
+2024-02-04 02:30:09.737 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-02-04 02:30:09.737 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'

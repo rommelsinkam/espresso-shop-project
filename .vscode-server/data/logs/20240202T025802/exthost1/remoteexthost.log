@@ -8,3 +8,6 @@
 2024-02-02 02:58:15.103 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
 2024-02-02 02:58:15.104 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
 2024-02-02 04:20:28.074 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-02-02 09:39:41.928 [info] Extension host terminating: renderer disconnected for too long (1)
+2024-02-02 09:39:41.929 [info] Lock '/home/s3yannick/.vscode-server/data/User/workspaceStorage/fd2913773babb6958f4460d0346e487d/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-02-02 09:39:41.943 [info] Extension host with pid 137067 exiting with code 0

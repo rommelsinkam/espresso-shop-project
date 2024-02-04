@@ -194,3 +194,5 @@ docker exec -it s3yannick bash
 ls
 cp -r s3yannick-espresso-shop-web/* s3yannick-espresso-shop-product/
 docker exec -it s3yannick bash
+cd ..
+docker exec -it s3yannick bash
