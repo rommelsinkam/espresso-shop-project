@@ -1,5 +1,5 @@
 NAME: s3yannick-espresso-shop-reviews
-LAST DEPLOYED: Tue Feb  6 06:04:46 2024
+LAST DEPLOYED: Sun Feb  4 09:32:43 2024
 NAMESPACE: yan
 STATUS: pending-install
 REVISION: 1
@@ -106,7 +106,7 @@ spec:
       securityContext:
         {}
       containers:
-        - name: s3yan-espresso-shop-web
+        - name: s3yannick-espresso-shop-reviews
           securityContext:
             {}
           image: "s3yannick/s3-project01-espresso-shop-review:v1.0.0"

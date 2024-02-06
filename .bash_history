@@ -196,3 +196,13 @@ cp -r s3yannick-espresso-shop-web/* s3yannick-espresso-shop-product/
 docker exec -it s3yannick bash
 cd ..
 docker exec -it s3yannick bash
+cd ..
+mkdir s3yannick-espresso-shop-product-catalog
+cp -r s3yannick-espresso-shop-web/* s3yannick-espresso-shop-product-catalog/
+docker exec -it s3yannick bash
+mkdir s3yannick-espresso-shop-review
+ls 
+rm -rf  s3yannick-espresso-shop-review
+mkdir s3yannick-espresso-shop-reviews
+cp -r s3yannick-espresso-shop-web/* s3yannick-espresso-shop-reviews
+docker exec -it s3yannick bash

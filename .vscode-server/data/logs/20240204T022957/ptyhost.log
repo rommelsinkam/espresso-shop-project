@@ -40,3 +40,24 @@
 2024-02-04 05:36:21.717 [warning] Shell integration cannot be enabled for executable "/bin/sh" and args ["-c","wget --version > /dev/null\nif [ $? -eq 0 ]\nthen\n\twget --connect-timeout=7 --tries=1 --dns-timeout=7 -q --header='Metadata-Flavor:Google' -O - http://metadata.google.internal/computeMetadata/v1/instance/id\nelse\n\tcurl --version > /dev/null\n\tif [ $? -eq 0 ]\n\tthen\n\t\tcurl --connect-timeout 7 -s --header='Metadata-Flavor:Google' http://metadata.google.internal/computeMetadata/v1/instance/id\n\tfi\nfi\nexit 0"]
 2024-02-04 05:36:22.083 [info] Persistent process reconnection "9"
 2024-02-04 05:36:22.172 [info] Persistent process "9": Replaying 6754 chars and 1 size events
+2024-02-04 08:06:07.919 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2024-02-04 08:06:07.920 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-02-04 08:06:07.920 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-02-04 08:06:09.065 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-02-04 08:06:14.586 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2024-02-04 08:06:14.587 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2024-02-04 08:06:14.587 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-02-04 08:06:14.587 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-02-04 08:06:14.590 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2024-02-04 08:06:14.590 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-02-04 08:06:14.591 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-02-04 08:06:14.591 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-02-04 08:06:14.591 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2024-02-04 08:06:14.593 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-02-04 08:06:14.593 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-02-04 08:06:17.165 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2024-02-04 08:06:17.165 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-02-04 08:06:17.165 [error] [RPC Response] PtyService#updateIcon Could not find pty on pty host
+2024-02-04 08:06:17.165 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-02-04 08:06:17.165 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host
+2024-02-04 08:06:17.855 [error] [RPC Response] PtyService#updateTitle Could not find pty on pty host

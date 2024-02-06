@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ .Values.appname }}
+  name: {{ .Values.labels.app2 }}
   labels:
-    app: {{ .Values.labels.app }}
+    app: {{ .Values.labels.app2 }}
 spec:
   {{- if not .Values.autoscaling.enabled }}
   replicas: {{ .Values.replicaCount }}
   {{- end }}
   selector:
     matchLabels:
-      app: {{ .Values.labels.app }}
+      app: {{ .Values.labels.app2 }}
   minReadySeconds: {{ .Values.minReadySeconds }}
   strategy:
     type: {{ .Values.strategy.type }}
@@ -24,28 +24,29 @@ spec:
         {{- toYaml . | nindent 8 }}
       {{- end }}
       labels:
-        app: {{ .Values.labels.app }}
-        version: {{ .Values.labels.version }}
+        app: {{ .Values.labels.app2 }}
+        version: {{ .Values.labels.version2 }}
     spec:
       imagePullSecrets:
         {{- with .Values.imagePullSecrets }}
         {{- toYaml . | nindent 8 }}
         {{- end }}
-      serviceAccountName: {{ .Values.labels.app }}
+      serviceAccountName: {{ .Values.labels.app2 }}
       securityContext:
         {{- toYaml .Values.podSecurityContext | nindent 8 }}
       containers:
-        - name: {{ .Chart.Name }}
+        - name: {{ .Values.labels.app2 }}
           securityContext:
             {{- toYaml .Values.securityContext | nindent 12 }}
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           envFrom:
             - secretRef:
-                name: {{ .Values.appname }} 
+                name: {{ .Values.labels.app2 }}
           env:
-             - name: {{ .Values.connection.name }}
-               value: "{{ .Values.connection.value }}"
+            - name: {{ .Values.connection.name }}
+              value: "{{ .Values.connection.value2 }}"
+          
           ports:
             - name: http
               containerPort: {{ .Values.service.targetPort }}

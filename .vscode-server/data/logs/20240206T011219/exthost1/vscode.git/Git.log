@@ -1,0 +1,28 @@
+2024-02-06 01:12:33.226 [info] Log level: Info
+2024-02-06 01:12:33.226 [info] Validating found git in: "git"
+2024-02-06 01:12:33.226 [info] Using git "2.34.1" from "git"
+2024-02-06 01:12:33.226 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-06 01:12:33.226 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-06 01:12:33.226 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-06 01:12:33.226 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-06 01:12:33.226 [info] > git rev-parse --show-toplevel [7ms]
+2024-02-06 01:12:33.226 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-06 01:12:33.226 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-06 01:15:45.571 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-06 01:15:45.652 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-06 01:23:38.013 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-06 01:24:35.128 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-06 01:26:20.025 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-06 01:31:41.870 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-06 01:32:51.260 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-06 03:57:46.500 [info] > git rev-parse --show-toplevel [2ms]
+2024-02-06 04:03:39.421 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-06 04:04:24.449 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-06 04:04:26.586 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-06 04:04:32.892 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-06 04:05:32.296 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-06 04:13:36.494 [info] > git rev-parse --show-toplevel [1ms]
+2024-02-06 04:13:36.494 [info] fatal: detected dubious ownership in repository at '/home/s3yannick/s3yannick-espresso-shop-reviews'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /home/s3yannick/s3yannick-espresso-shop-reviews
